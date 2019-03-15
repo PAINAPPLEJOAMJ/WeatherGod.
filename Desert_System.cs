@@ -57,7 +57,7 @@ public class Desert_System : FSM_Base
         if (currentState != state)
         {
             currentState = state;
-            NextState(); // 이거 어디서 쓰는거지
+            NextState();
         }
     }
 
